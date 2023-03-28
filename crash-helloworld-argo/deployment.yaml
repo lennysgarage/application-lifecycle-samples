@@ -19,7 +19,7 @@ spec:
         image: "quay.io/fxiang1/helloworld:0.0.1"
         imagePullPolicy: IfNotPresent
         ports:
-          - containerPort: 3002
+          - containerPort: 8000
         env:
           - name: "PORT"
             value: "8000"
